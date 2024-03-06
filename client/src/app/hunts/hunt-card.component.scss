@@ -1,0 +1,86 @@
+.hunt-card {
+
+
+  margin: 20px;
+
+  width: relative;
+  width: 300px;
+  height: relative min 300px;
+  border-style: inset;
+  min-height: 200px;
+  background-color: rgb(254, 255, 156);
+
+  &:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  }
+}
+
+
+mat-card-header mat-card-title {
+  text-align: center;
+  color: black;
+  margin-bottom: 10px;
+  text-transform: capitalize;
+}
+
+mat-card-header mat-card-subtitle {
+  text-align: center;
+  color: black;
+}
+
+mat-card-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.hunt-card-link {
+  color: inherit;
+  /* Use the same color as the parent element */
+  text-decoration: none;
+  /* Remove underline */
+}
+
+.hunt-card-link:link,
+.hunt-card-link:visited,
+.hunt-card-link:hover,
+.hunt-card-link:active {
+  color: inherit;
+  text-decoration: none;
+}
+
+.play-hunt {
+  background-color: "primary";
+  color: "white";
+  padding: 10px;
+  text-align: center;
+  text-transform: capitalize;
+  margin: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.card-actions {
+  display: flex;
+  justify-content: space-evenly;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.play-button-icon {
+  color: rgb(150, 150, 150);
+}
+
+.edit-button-icon {
+  color: rgb(150, 150, 150);
+}
+
+.inspect-button-icon {
+  color: rgb(150, 150, 150);
+}
+
+.delete-button-icon {
+  color: rgb(150, 150, 150);
+}

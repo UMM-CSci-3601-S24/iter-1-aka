@@ -8,7 +8,9 @@
       "html"
     ],
     "cSpell.words": [
+      "bangbang",
       "Bson",
+      "Byhuntid",
       "Checkstyle",
       "CSCI",
       "datacenter",
@@ -17,6 +19,8 @@
       "Friederichsen",
       "gradlew",
       "helloworld",
+      "hostid",
+      "huntid",
       "Ibmers",
       "invalidemail",
       "invalidrole",
@@ -32,10 +36,12 @@
       "OHMNET",
       "Phee",
       "sams",
+      "Scav",
       "Servlet",
       "setupdroplet",
       "sidenav",
       "sortorder",
+      "taskid",
       "todos",
       "Walbran"
     ],
